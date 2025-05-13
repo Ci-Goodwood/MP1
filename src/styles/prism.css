@@ -32,7 +32,7 @@ pre[class*='language-'] {
 
 .token.punctuation,
 .token.attr-equals {
-  color: theme('colors.zinc.500');
+  color: theme('colors.red.500');
 }
 
 .token.unit,
@@ -43,5 +43,5 @@ pre[class*='language-'] {
 .token.comment,
 .token.operator,
 .token.combinator {
-  color: theme('colors.zinc.400');
+  color: theme('colors.red.400');
 }
