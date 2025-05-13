@@ -13,21 +13,21 @@ export type EducationItemType = {
   
   export const educationList: Array<EducationItemType> = [
     {
-      school: 'Tsinghua University',
+      school: '电子科技大学',
       major: 'MBA',
       logo: 'college',
       start: '2017',
       end: '2020'
     },
     {
-      school: 'University of Chicago',
+      school: '成都市树德中学',
       major: 'Computer Science',
       logo: 'college',
       start: '2013',
       end: '2015'
     },
     {
-      school: 'BUPT',
+      school: '乐山市实验中学',
       major: 'Automation',
       logo: 'college',
       start: '2009',
