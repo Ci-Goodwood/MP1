@@ -70,7 +70,7 @@ export const activitiesIntro = "或许，我该打打瓦？"
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: '我还',
     description:
       'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
     date: '2024-02-24',
@@ -78,7 +78,7 @@ export const activities: Array<ActivityItemType> = [
     link: 'https://example.com/python-workshop',
   },
   {
-    name: 'AI Ethics Discussion',
+    name: '没有',
     description:
       'A group discussion about the ethical implications of AI development and its impact on society.',
     date: '2024-03-01',
@@ -86,7 +86,7 @@ export const activities: Array<ActivityItemType> = [
     link: 'https://example.com/ai-ethics',
   },
   {
-    name: 'Code Review Session',
+    name: '想好',
     description:
       'Helping students improve their coding skills through peer code review and best practices sharing.',
     date: '2024-03-15',
