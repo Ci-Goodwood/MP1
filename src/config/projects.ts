@@ -15,58 +15,58 @@ export type ActivityItemType = {
 }
 
 // Awards
-export const awardsHeadLine = "Awards & Honors"
-export const awardsIntro = "Recognition for academic and professional achievements."
+export const awardsHeadLine = "奖项&荣誉"
+export const awardsIntro = "很荣幸得到认可"
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
+    name: '第三十九届全国中学生物理竞赛省一等奖',
     description: '',
-    date: '2024',
-    location: 'SCLS, Shanghai',
+    date: '2022',
+    location: '树德中学, 成都',
   },
   {
-    name: 'Zhui Ying Award',
+    name: '奋发立志奖学金三等奖',
     description: '',
     date: '2023',
-    location: 'Qingpu, Shanghai',
+    location: '树德中学, 成都',
   },
 ]
 
 // Research & Projects
-export const projectHeadLine = "Research & Projects"
-export const projectIntro = "Academic research and technical projects I've worked on."
+export const projectHeadLine = "我的研究方向与研究项目"
+export const projectIntro = "日就月将，学有缉熙于光明"
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
+    name: '中学生物理竞赛研究',
+    description: '虽然只是一个省一，但是我在这上面还是耗费了不少精力',
     link: { href: 'scls-cs.com', label: 'GitHub Cards' },
     tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
+    name: '前端三件套',
+    description: '打好基础，方可足下生风',
     link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
     tags: ['Hackathon', 'Java']
   },
   {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
+    name: 'vue框架',
+    description: '这个正在学',
+    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
+    tags: ['Hackathon', 'Java']
   },
   {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: '马列主义研究',
+    description: '作为程序员，人文学科也不能忽视',
+    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
+    tags: ['Hackathon']
   },
 ]
 
 // Hobbies & Volunteer
-export const activitiesHeadLine = "Hobbies & Volunteer"
-export const activitiesIntro = "Personal interests and community contributions."
+export const activitiesHeadLine = "爱好&志愿服务"
+export const activitiesIntro = "或许，我该打打瓦？"
 
 export const activities: Array<ActivityItemType> = [
   {
